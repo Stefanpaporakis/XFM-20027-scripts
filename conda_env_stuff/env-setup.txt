@@ -1,0 +1,19 @@
+
+Run commands to set up enviroment:
+
+	conda create --name py36 python==3.6
+	source activate py36
+	conda install -c anaconda scikit-image
+	conda install -c conda-forge ipython
+	conda install -c conda-forge h5py
+	conda install -c conda-forge hdf5plugin
+
+Add this to .bashrc to use conda packages instead of site-packages:
+
+	export PYTHONNOUSERSITE=True
+
+Open a new terminal to re-run the .bashrc file or in a current terminal run:
+    
+    source ~/.bashrc
+
+note, i think pyfai is missing?
