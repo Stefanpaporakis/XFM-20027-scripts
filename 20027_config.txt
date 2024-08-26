@@ -1,0 +1,31 @@
+[FLUXFM_CONFIG]
+#
+# Config file for fluxfm
+# XFM experiment 20027
+
+
+# Detector
+# Pixel numbers for EIGER detector
+eiger_nx = 1062
+eiger_ny = 1028
+# Hot pixel value
+#max_px_count = 4.29E9
+max_px_count = 1e4
+
+# Experiment geometry
+# Approximate, fix from standard
+cam_length = 0.64
+
+# Incident X-ray wavelength in meters
+wavelength = 0.67018E-10
+# Pixel size in meters
+pix_size = 75E-6
+
+# Data path variables
+# Experiment ID
+experiment_id = 20027
+# Starting value for the MAIA detector
+maia_num = 138009
+
+experiment_data_path = /data/xfm/20027/raw/eiger/
+experiment_analysis_path = /data/xfm/20027/analysis/eiger/

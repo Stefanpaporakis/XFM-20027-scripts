@@ -1,0 +1,26 @@
+[PY3CORRELATION]
+outpath = /data/xfm/19545/pythondev/test/
+samplepath = /data/xfm/19545/pythondev/test/
+tag = arghtest
+fext = .npy
+dz = 0.317
+wl = 0.67018E-10
+pw = 75e-6
+nq = 128
+nth = 180
+#cx = 100
+#cy = 100
+nthreads = 8
+nstart = 400
+npatterns = 32
+rebin = 1
+diffcorrflag = False
+maskflag = True
+outputdp = False
+bg_estimage = False
+dp_shift_flag = False
+crop_flag = True
+nxcrop = 1024
+nycrop = 1024
+#shiftx = 100
+#shifty = 100 
